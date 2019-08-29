@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+$white : white;
+$primary_bg : #221815;
+$blue_bg : #109CEB;
+$zero : 0px;
+*{
+    padding: $zero;
+    margin: $zero; 
+}
+body{
+    height: 100%;
+    width:100%;
+}
+.head{
+    background-color: $primary_bg;
+    height: 20%;
+    color : white;
+    float: left; white-space: nowrap;
+    width:100%;
+}
+
+.head a{
+    background-color: $primary_bg;
+   
+    color : white;
+}
+.head a:link{
+    color : white;
+    background-color: $primary_bg;
+}
+
+.head a:hover{
+    color : white;
+     background-color: $blue_bg; 
+}
+
+.head a:active{
+    color : white;
+    background-color: $blue_bg;
+}
+
+.foot{
+    height: 20%;
+    width:100%;
+    float: left; white-space: nowrap;
+}
+
+
+.main {
+    height: 30%;
+    min-height: 30%;
+}
+
+.example-action-button {
+    margin-top: 8px;
+    margin-right: 8px;
+  }

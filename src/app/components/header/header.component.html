@@ -1,0 +1,36 @@
+<!-- <div class="head" >
+    <div class="col-lg-12 col-md-12 col-s-12"> -->
+            <!-- <mat-tab-group>
+                <mat-tab label="Films"  [routerLink]="['/films']"> </mat-tab>
+                <mat-tab label="People" [routerLink]=['/films']></mat-tab>
+                <mat-tab label="Locations" [routerLink]=['/films']></mat-tab>
+            </mat-tab-group> -->
+<nav  mat-tab-nav-bar class="head col-md-12 col-lg-12 col-s-12">      
+            <a mat-tab-link
+            class="example-action-button"
+            [routerLink]= "['/films']"
+            routerLinkActive ="routerLinkActive"
+            [active]="rla.isActive">
+           Films
+            </a>
+
+            <a mat-tab-link
+            class="example-action-button"
+             [routerLink]= "['/people']"
+             routerLinkActive #rla="routerLinkActive"
+             [active]="rla.isActive"
+            >
+            People
+             </a>
+
+             <a mat-tab-link
+             class="example-action-button"
+              [routerLink]="['/locations']"
+              routerLinkActive #rla="routerLinkActive"
+              [active]="rla.isActive"
+              >
+             Locations
+              </a>
+</nav>
+        <!-- </div>
+</div> -->
